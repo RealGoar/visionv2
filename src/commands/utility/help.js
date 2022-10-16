@@ -12,7 +12,7 @@ const {
 } = require("discord.js");
 const { getCommandUsage, getSlashUsage } = require("@handlers/command");
 
-const CMDS_PER_PAGE = 5;
+const CMDS_PER_PAGE = 20;
 const IDLE_TIMEOUT = 30;
 
 /**
@@ -20,7 +20,7 @@ const IDLE_TIMEOUT = 30;
  */
 module.exports = {
   name: "help",
-  description: "command help menu",
+  description: "Shows help command for Synapse.",
   category: "UTILITY",
   botPermissions: ["EmbedLinks"],
   command: {
@@ -57,7 +57,7 @@ module.exports = {
     }
 
     // No matching command/category found
-    await message.safeReply("No matching command found");
+    await message.safeReply("I could not find a matching command.");
   },
 
   async interactionRun(interaction) {
@@ -85,7 +85,7 @@ module.exports = {
 /**
  * @param {CommandInteraction} interaction
  */
-async function getHelpMenu({ client, guild }) {
+async function getHelpMenu({ client, message, guild }) {
   // Menu Row
   const options = [];
   for (const [k, v] of Object.entries(CommandCategory)) {
@@ -113,16 +113,19 @@ async function getHelpMenu({ client, guild }) {
 
   const embed = new EmbedBuilder()
     .setColor(EMBED_COLORS.BOT_EMBED)
-    .setThumbnail(client.user.displayAvatarURL())
+    //.setThumbnail(client.user.displayAvatarURL())
+    .setAuthor({
+      name: `${guild.members.me.displayName}`,
+      iconURL: `${client.user.displayAvatarURL()}`,
+      url: `${SUPPORT_SERVER}`,
+    })
+    .setTitle(`Select a category`)
     .setDescription(
-      "**About Me:**\n" +
-        `Hello I am ${guild.members.me.displayName}!\n` +
-        "A cool multipurpose discord bot which can serve all your needs\n\n" +
-        `**Invite Me:** [Here](${client.getInvite()})\n` +
-        `**Support Server:** [Join](${SUPPORT_SERVER})`
+      `Please select a category in the selection button down below\n[Invite](${client.getInvite()}) \`|\` [Support](${SUPPORT_SERVER})`
     );
 
   return {
+    content: `❤ Join the support server for help ${SUPPORT_SERVER}`,
     embeds: [embed],
     components: [menuRow, buttonsRow],
   };
@@ -201,7 +204,7 @@ function getSlashCategoryEmbeds(client, category) {
   if (category === "IMAGE") {
     client.slashCommands
       .filter((cmd) => cmd.category === category)
-      .forEach((cmd) => (collector += `\`/${cmd.name}\`\n ❯ ${cmd.description}\n\n`));
+      .forEach((cmd) => (collector += `${cmd.name}`));
 
     const availableFilters = client.slashCommands
       .get("filter")
@@ -233,7 +236,7 @@ function getSlashCategoryEmbeds(client, category) {
       .setColor(EMBED_COLORS.BOT_EMBED)
       .setThumbnail(CommandCategory[category]?.image)
       .setAuthor({ name: `${category} Commands` })
-      .setDescription("No commands in this category");
+      .setDescription("No commands found in this category");
 
     return [embed];
   }
@@ -248,9 +251,7 @@ function getSlashCategoryEmbeds(client, category) {
       const subCmds = cmd.slashCommand.options?.filter((opt) => opt.type === "SUB_COMMAND");
       const subCmdsString = subCmds?.map((s) => s.name).join(", ");
 
-      return `\`/${cmd.name}\`\n ❯ **Description**: ${cmd.description}\n ${
-        !subCmds?.length ? "" : `❯ **SubCommands [${subCmds?.length}]**: ${subCmdsString}\n`
-      } `;
+      return `${cmd.name} ${!subCmds?.length ? "" : `╰[${subCmds?.length}]: ${subCmdsString}\n`} `;
     });
 
     arrSplitted.push(toAdd);
@@ -259,10 +260,10 @@ function getSlashCategoryEmbeds(client, category) {
   arrSplitted.forEach((item, index) => {
     const embed = new EmbedBuilder()
       .setColor(EMBED_COLORS.BOT_EMBED)
-      .setThumbnail(CommandCategory[category]?.image)
-      .setAuthor({ name: `${category} Commands` })
-      .setDescription(item.join("\n"))
-      .setFooter({ text: `page ${index + 1} of ${arrSplitted.length}` });
+      //.setThumbnail(CommandCategory[category]?.image)
+      .setAuthor({ name: `${category}`, iconURL: `${CommandCategory[category]?.image}` })
+      .setDescription(`\`${item.join("\`, \`")}\`.`)
+      .setFooter({ text: `page ${index + 1}/${arrSplitted.length}` });
     arrEmbeds.push(embed);
   });
 
@@ -297,8 +298,8 @@ function getMsgCategoryEmbeds(client, category, prefix) {
 
     const embed = new EmbedBuilder()
       .setColor(EMBED_COLORS.BOT_EMBED)
-      .setThumbnail(CommandCategory[category]?.image)
-      .setAuthor({ name: `${category} Commands` })
+      //.setThumbnail(CommandCategory[category]?.image)
+      .setAuthor({ name: `${category}`, iconURL: `${CommandCategory[category]?.image}` })
       .setDescription(collector);
 
     return [embed];
@@ -310,8 +311,8 @@ function getMsgCategoryEmbeds(client, category, prefix) {
   if (commands.length === 0) {
     const embed = new EmbedBuilder()
       .setColor(EMBED_COLORS.BOT_EMBED)
-      .setThumbnail(CommandCategory[category]?.image)
-      .setAuthor({ name: `${category} Commands` })
+      //.setThumbnail(CommandCategory[category]?.image)
+      .setAuthor({ name: `${category}`, iconURL: `${CommandCategory[category]?.image}` })
       .setDescription("No commands in this category");
 
     return [embed];
@@ -329,9 +330,9 @@ function getMsgCategoryEmbeds(client, category, prefix) {
   arrSplitted.forEach((item, index) => {
     const embed = new EmbedBuilder()
       .setColor(EMBED_COLORS.BOT_EMBED)
-      .setThumbnail(CommandCategory[category]?.image)
-      .setAuthor({ name: `${category} Commands` })
-      .setDescription(item.join("\n"))
+      //.setThumbnail(CommandCategory[category]?.image)
+      .setAuthor({ name: `${category}`, iconURL: `${CommandCategory[category]?.image}` })
+      .setDescription(`\`${item.join("\`, \`")}\`.`)
       .setFooter({
         text: `page ${index + 1} of ${arrSplitted.length} | Type ${prefix}help <command> for more command information`,
       });

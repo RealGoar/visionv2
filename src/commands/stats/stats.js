@@ -45,7 +45,7 @@ module.exports = {
  * @param {object} settings
  */
 async function stats(member, settings) {
-  if (!settings.stats.enabled) return "Stats Tracking is disabled on this server";
+  if (!settings.stats.enabled) return "Stats Tracking is currently disabled on the server.";
   const memberStats = await getMemberStats(member.guild.id, member.id);
 
   const embed = new EmbedBuilder()

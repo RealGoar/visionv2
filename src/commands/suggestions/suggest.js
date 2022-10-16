@@ -55,10 +55,10 @@ module.exports = {
  * @param {object} settings
  */
 async function suggest(member, suggestion, settings) {
-  if (!settings.suggestions.enabled) return "Suggestion system is disabled.";
+  if (!settings.suggestions.enabled) return "Suggestion system is currently disabled on the server.";
   if (!settings.suggestions.channel_id) return "Suggestion channel not configured!";
   const channel = member.guild.channels.cache.get(settings.suggestions.channel_id);
-  if (!channel) return "Suggestion channel not found!";
+  if (!channel) return "I could not find the suggestion channel!";
 
   const embed = new EmbedBuilder()
     .setAuthor({ name: "New Suggestion" })

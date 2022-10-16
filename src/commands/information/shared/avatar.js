@@ -11,6 +11,7 @@ module.exports = (user) => {
   const x512 = user.displayAvatarURL({ extension: "png", size: 512 });
   const x1024 = user.displayAvatarURL({ extension: "png", size: 1024 });
   const x2048 = user.displayAvatarURL({ extension: "png", size: 2048 });
+  const x4096 = user.displayAvatarURL({ extension: "png", size: 4096 });
 
   const embed = new EmbedBuilder()
     .setTitle(`Avatar of ${user.username}`)
@@ -22,7 +23,8 @@ module.exports = (user) => {
         `• [x256](${x256}) ` +
         `• [x512](${x512}) ` +
         `• [x1024](${x1024}) ` +
-        `• [x2048](${x2048}) `
+        `• [x2048](${x2048}) ` +
+        `• [x4096](${x4096}) `
     );
 
   return {

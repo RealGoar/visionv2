@@ -60,8 +60,11 @@ async function getGithubUser(target, author) {
     followers,
     following,
     bio,
+    email,
+    company,
     location,
     blog,
+    created_at,
   } = json;
 
   let website = websiteProvided(blog) ? `[Click me](${blog})` : "Not Provided";
@@ -69,28 +72,32 @@ async function getGithubUser(target, author) {
 
   const embed = new EmbedBuilder()
     .setAuthor({
-      name: `GitHub User: ${username}`,
+      name: `${username} (${githubId})`,
       url: userPageLink,
       iconURL: avatarUrl,
     })
     .addFields(
       {
-        name: "User Info",
+        name: "‎ ",
         value: stripIndent`
-        **Real Name**: *${name || "Not Provided"}*
-        **Location**: *${location}*
-        **GitHub ID**: *${githubId}*
-        **Website**: *${website}*\n`,
+        **Real Name**: \`${name || "Not Provided"}\`
+        **Location**: \`${location || "Not Provided"}\`
+        **Website**: \`${website || "Not Provided"}\`
+        **Creation**: \`${created_at || "Unknown"}\``,
         inline: true,
       },
       {
-        name: "Social Stats",
-        value: `**Followers**: *${followers}*\n**Following**: *${following}*`,
+        name: "‎ ",
+        value: stripIndent`
+        **Followers**: \`${followers}\`
+        **Following**: \`${following}\`
+        **Company**: \`${company || "Not Provided"}\`
+        **Email**: \`${email || "Not Provided"}\``,
         inline: true,
       }
     )
-    .setDescription(`**Bio**:\n${bio || "Not Provided"}`)
-    .setImage(avatarUrl)
+    .setDescription(`${bio || ""}`)
+    .setThumbnail(avatarUrl)
     .setColor(0x6e5494)
     .setFooter({ text: `Requested by ${author.tag}` });
 

@@ -50,30 +50,40 @@ async function pokedex(pokemon) {
   const json = response.data[0];
 
   const embed = new EmbedBuilder()
-    .setTitle(`Pokédex - ${json.name}`)
+    .setAuthor({ name: `Pokédex - ${json.name}`, iconURL: json.sprite, url: `https://www.pokemon.com/us/pokedex/${pokemon}`})
     .setColor(EMBED_COLORS.BOT_EMBED)
-    .setThumbnail(json.sprite)
-    .setDescription(
-      stripIndent`
-            ♢ **ID**: ${json.number}
-            ♢ **Name**: ${json.name}
-            ♢ **Species**: ${json.species}
-            ♢ **Type(s)**: ${json.types}
-            ♢ **Abilities(normal)**: ${json.abilities.normal}
-            ♢ **Abilities(hidden)**: ${json.abilities.hidden}
-            ♢ **Egg group(s)**: ${json.eggGroups}
-            ♢ **Gender**: ${json.gender}
-            ♢ **Height**: ${json.height} foot tall
-            ♢ **Weight**: ${json.weight}
-            ♢ **Current Evolution Stage**: ${json.family.evolutionStage}
-            ♢ **Evolution Line**: ${json.family.evolutionLine}
-            ♢ **Is Starter?**: ${json.starter}
-            ♢ **Is Legendary?**: ${json.legendary}
-            ♢ **Is Mythical?**: ${json.mythical}
-            ♢ **Is Generation?**: ${json.gen}
-            `
+    .addFields(
+      {
+        name: "‎ ",
+        value: stripIndent`
+      **ID**: ${json.number}
+      **Name**: ${json.name}
+      **Species**: ${json.species}
+      **Type(s)**: ${json.types}
+      **Abilities(normal)**: ${json.abilities.normal.join(", ")}
+      **Abilities(hidden)**: ${json.abilities.hidden.join(", ")}
+      **Egg group(s)**: ${json.eggGroups}
+      **mega**: ${json.mega}
+      **Gender**: ${json.gender}`,
+        inline: true,
+      },
+      {
+        name: "‎ ",
+        value: stripIndent`
+        **Height**: ${json.height} foot tall
+            **Weight**: ${json.weight}
+            **Current Evolution Stage**: ${json.family.evolutionStage}
+            **Evolution Line**: ${json.family.evolutionLine.join(", ")}
+            **Is Starter?**: ${json.starter}
+            **Is Legendary?**: ${json.legendary}
+            **Is Mythical?**: ${json.mythical}
+            **Ultra Beast?**: ${json.ultraBeast}
+            **Is Generation?**: ${json.gen}`,
+        inline: true,
+      }
     )
-    .setFooter({ text: json.description });
+    .setThumbnail(json.sprite)
+    .setDescription(`${json.description || ""}`);
 
   return { embeds: [embed] };
 }
