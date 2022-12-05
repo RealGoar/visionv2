@@ -1,0 +1,475 @@
+{"level":30,"time":1666425508550,"pid":1392,"hostname":"cherry","msg":"Validating config file and environment variables"}
+{"level":30,"time":1666425509236,"pid":1392,"hostname":"cherry","msg":"Loading commands..."}
+{"level":20,"time":1666425516907,"pid":1392,"hostname":"cherry","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1666425516921,"pid":1392,"hostname":"cherry","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1666425516933,"pid":1392,"hostname":"cherry","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1666425516948,"pid":1392,"hostname":"cherry","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1666425516951,"pid":1392,"hostname":"cherry","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1666425517087,"pid":1392,"hostname":"cherry","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1666425517088,"pid":1392,"hostname":"cherry","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1666425517182,"pid":1392,"hostname":"cherry","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1666425517222,"pid":1392,"hostname":"cherry","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1666425517240,"pid":1392,"hostname":"cherry","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1666425517356,"pid":1392,"hostname":"cherry","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1666425517359,"pid":1392,"hostname":"cherry","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1666425517368,"pid":1392,"hostname":"cherry","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1666425517379,"pid":1392,"hostname":"cherry","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1666425517380,"pid":1392,"hostname":"cherry","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1666425517381,"pid":1392,"hostname":"cherry","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1666425517383,"pid":1392,"hostname":"cherry","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1666425517384,"pid":1392,"hostname":"cherry","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1666425517396,"pid":1392,"hostname":"cherry","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1666425517399,"pid":1392,"hostname":"cherry","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1666425517401,"pid":1392,"hostname":"cherry","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1666425517403,"pid":1392,"hostname":"cherry","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1666425517419,"pid":1392,"hostname":"cherry","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1666425517445,"pid":1392,"hostname":"cherry","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1666425517494,"pid":1392,"hostname":"cherry","msg":"Skipping Command bassboost. Category ERELA_JS is disabled"}
+{"level":20,"time":1666425517496,"pid":1392,"hostname":"cherry","msg":"Skipping Command loop. Category ERELA_JS is disabled"}
+{"level":20,"time":1666425517558,"pid":1392,"hostname":"cherry","msg":"Skipping Command np. Category ERELA_JS is disabled"}
+{"level":20,"time":1666425517560,"pid":1392,"hostname":"cherry","msg":"Skipping Command pause. Category ERELA_JS is disabled"}
+{"level":20,"time":1666425517577,"pid":1392,"hostname":"cherry","msg":"Skipping Command play. Category ERELA_JS is disabled"}
+{"level":20,"time":1666425517578,"pid":1392,"hostname":"cherry","msg":"Skipping Command queue. Category ERELA_JS is disabled"}
+{"level":20,"time":1666425517590,"pid":1392,"hostname":"cherry","msg":"Skipping Command resume. Category ERELA_JS is disabled"}
+{"level":20,"time":1666425517591,"pid":1392,"hostname":"cherry","msg":"Skipping Command search. Category ERELA_JS is disabled"}
+{"level":20,"time":1666425517602,"pid":1392,"hostname":"cherry","msg":"Skipping Command seek. Category ERELA_JS is disabled"}
+{"level":20,"time":1666425517604,"pid":1392,"hostname":"cherry","msg":"Skipping Command shuffle. Category ERELA_JS is disabled"}
+{"level":20,"time":1666425517605,"pid":1392,"hostname":"cherry","msg":"Skipping Command skip. Category ERELA_JS is disabled"}
+{"level":20,"time":1666425517618,"pid":1392,"hostname":"cherry","msg":"Skipping Command stop. Category ERELA_JS is disabled"}
+{"level":20,"time":1666425517620,"pid":1392,"hostname":"cherry","msg":"Skipping Command volume. Category ERELA_JS is disabled"}
+{"level":20,"time":1666425517621,"pid":1392,"hostname":"cherry","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1666425517626,"pid":1392,"hostname":"cherry","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1666425517631,"pid":1392,"hostname":"cherry","msg":"Skipping slash command listservers. Disabled!"}
+{"level":30,"time":1666425518021,"pid":1392,"hostname":"cherry","msg":"Loaded 89 commands"}
+{"level":30,"time":1666425518021,"pid":1392,"hostname":"cherry","msg":"Loaded 70 slash commands"}
+{"level":30,"time":1666425518021,"pid":1392,"hostname":"cherry","msg":"Loading contexts..."}
+{"level":30,"time":1666425518044,"pid":1392,"hostname":"cherry","msg":"Loaded 0 USER contexts"}
+{"level":30,"time":1666425518044,"pid":1392,"hostname":"cherry","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1666425518044,"pid":1392,"hostname":"cherry","msg":"Loading events..."}
+{"level":30,"time":1666425518334,"pid":1392,"hostname":"cherry","msg":"Loaded 16 events. Success (16) Failed (0)"}
+{"level":30,"time":1666425518335,"pid":1392,"hostname":"cherry","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1666425520012,"pid":1392,"hostname":"cherry","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1666425520533,"pid":1392,"hostname":"cherry","msg":"VersionCheck: Your discord bot is up to date"}
+{"level":30,"time":1666425520534,"pid":1392,"hostname":"cherry","msg":"Launching dashboard"}
+{"level":30,"time":1666425524715,"pid":1392,"hostname":"cherry","msg":"Dashboard is listening on port 5050"}
+{"level":30,"time":1666425525824,"pid":1392,"hostname":"cherry","msg":"Logged in as test boty#4834! (1030953251710959646)"}
+{"level":30,"time":1666425525825,"pid":1392,"hostname":"cherry","msg":"Initializing giveaways manager..."}
+{"level":30,"time":1666425525926,"pid":1392,"hostname":"cherry","msg":"Giveaway Manager initialized"}
+{"level":30,"time":1666425526946,"pid":1392,"hostname":"cherry","msg":"Successfully registered interactions"}
+{"level":30,"time":1666426059143,"pid":1300,"hostname":"cherry","msg":"Validating config file and environment variables"}
+{"level":30,"time":1666426059195,"pid":1300,"hostname":"cherry","msg":"Loading commands..."}
+{"level":50,"time":1666426059306,"pid":1300,"hostname":"cherry","msg":"Failed to load C:\\Users\\NotCliqnt\\Desktop\\VisionV2\\src\\commands\\fun\\8ball.js Reason: Missing 'interactionRun' function"}
+{"level":20,"time":1666426059811,"pid":1300,"hostname":"cherry","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1666426059813,"pid":1300,"hostname":"cherry","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1666426059815,"pid":1300,"hostname":"cherry","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1666426059816,"pid":1300,"hostname":"cherry","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1666426059818,"pid":1300,"hostname":"cherry","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1666426059828,"pid":1300,"hostname":"cherry","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1666426059829,"pid":1300,"hostname":"cherry","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1666426059830,"pid":1300,"hostname":"cherry","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1666426059832,"pid":1300,"hostname":"cherry","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1666426059834,"pid":1300,"hostname":"cherry","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1666426059846,"pid":1300,"hostname":"cherry","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1666426059847,"pid":1300,"hostname":"cherry","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1666426059849,"pid":1300,"hostname":"cherry","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1666426059849,"pid":1300,"hostname":"cherry","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1666426059850,"pid":1300,"hostname":"cherry","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1666426059851,"pid":1300,"hostname":"cherry","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1666426059852,"pid":1300,"hostname":"cherry","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1666426059852,"pid":1300,"hostname":"cherry","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1666426059853,"pid":1300,"hostname":"cherry","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1666426059854,"pid":1300,"hostname":"cherry","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1666426059855,"pid":1300,"hostname":"cherry","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1666426059857,"pid":1300,"hostname":"cherry","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1666426059859,"pid":1300,"hostname":"cherry","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1666426059860,"pid":1300,"hostname":"cherry","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1666426059865,"pid":1300,"hostname":"cherry","msg":"Skipping Command bassboost. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426059866,"pid":1300,"hostname":"cherry","msg":"Skipping Command loop. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426059869,"pid":1300,"hostname":"cherry","msg":"Skipping Command np. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426059870,"pid":1300,"hostname":"cherry","msg":"Skipping Command pause. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426059870,"pid":1300,"hostname":"cherry","msg":"Skipping Command play. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426059871,"pid":1300,"hostname":"cherry","msg":"Skipping Command queue. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426059872,"pid":1300,"hostname":"cherry","msg":"Skipping Command resume. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426059873,"pid":1300,"hostname":"cherry","msg":"Skipping Command search. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426059873,"pid":1300,"hostname":"cherry","msg":"Skipping Command seek. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426059874,"pid":1300,"hostname":"cherry","msg":"Skipping Command shuffle. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426059875,"pid":1300,"hostname":"cherry","msg":"Skipping Command skip. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426059875,"pid":1300,"hostname":"cherry","msg":"Skipping Command stop. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426059876,"pid":1300,"hostname":"cherry","msg":"Skipping Command volume. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426059877,"pid":1300,"hostname":"cherry","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1666426059878,"pid":1300,"hostname":"cherry","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1666426059879,"pid":1300,"hostname":"cherry","msg":"Skipping slash command listservers. Disabled!"}
+{"level":30,"time":1666426059907,"pid":1300,"hostname":"cherry","msg":"Loaded 89 commands"}
+{"level":30,"time":1666426059907,"pid":1300,"hostname":"cherry","msg":"Loaded 70 slash commands"}
+{"level":30,"time":1666426059908,"pid":1300,"hostname":"cherry","msg":"Loading contexts..."}
+{"level":30,"time":1666426059909,"pid":1300,"hostname":"cherry","msg":"Loaded 0 USER contexts"}
+{"level":30,"time":1666426059909,"pid":1300,"hostname":"cherry","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1666426059909,"pid":1300,"hostname":"cherry","msg":"Loading events..."}
+{"level":30,"time":1666426059962,"pid":1300,"hostname":"cherry","msg":"Loaded 16 events. Success (16) Failed (0)"}
+{"level":30,"time":1666426059963,"pid":1300,"hostname":"cherry","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1666426061154,"pid":1300,"hostname":"cherry","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1666426061623,"pid":1300,"hostname":"cherry","msg":"VersionCheck: Your discord bot is up to date"}
+{"level":30,"time":1666426061623,"pid":1300,"hostname":"cherry","msg":"Launching dashboard"}
+{"level":30,"time":1666426061849,"pid":1300,"hostname":"cherry","msg":"Dashboard is listening on port 5050"}
+{"level":30,"time":1666426063074,"pid":1300,"hostname":"cherry","msg":"Logged in as test boty#4834! (1030953251710959646)"}
+{"level":30,"time":1666426063074,"pid":1300,"hostname":"cherry","msg":"Initializing giveaways manager..."}
+{"level":30,"time":1666426063194,"pid":1300,"hostname":"cherry","msg":"Giveaway Manager initialized"}
+{"level":30,"time":1666426065247,"pid":1300,"hostname":"cherry","msg":"Successfully registered interactions"}
+{"level":30,"time":1666426472498,"pid":7424,"hostname":"cherry","msg":"Validating config file and environment variables"}
+{"level":30,"time":1666426472547,"pid":7424,"hostname":"cherry","msg":"Loading commands..."}
+{"level":50,"time":1666426472638,"pid":7424,"hostname":"cherry","msg":"Failed to load C:\\Users\\NotCliqnt\\Desktop\\VisionV2\\src\\commands\\fun\\8ball.js Reason: Missing 'interactionRun' function"}
+{"level":20,"time":1666426473228,"pid":7424,"hostname":"cherry","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1666426473231,"pid":7424,"hostname":"cherry","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1666426473233,"pid":7424,"hostname":"cherry","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1666426473236,"pid":7424,"hostname":"cherry","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1666426473238,"pid":7424,"hostname":"cherry","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1666426473250,"pid":7424,"hostname":"cherry","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1666426473251,"pid":7424,"hostname":"cherry","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1666426473253,"pid":7424,"hostname":"cherry","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1666426473256,"pid":7424,"hostname":"cherry","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1666426473257,"pid":7424,"hostname":"cherry","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1666426473271,"pid":7424,"hostname":"cherry","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1666426473272,"pid":7424,"hostname":"cherry","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1666426473274,"pid":7424,"hostname":"cherry","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1666426473275,"pid":7424,"hostname":"cherry","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1666426473276,"pid":7424,"hostname":"cherry","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1666426473277,"pid":7424,"hostname":"cherry","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1666426473278,"pid":7424,"hostname":"cherry","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1666426473278,"pid":7424,"hostname":"cherry","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1666426473279,"pid":7424,"hostname":"cherry","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1666426473280,"pid":7424,"hostname":"cherry","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1666426473282,"pid":7424,"hostname":"cherry","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1666426473283,"pid":7424,"hostname":"cherry","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1666426473286,"pid":7424,"hostname":"cherry","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1666426473288,"pid":7424,"hostname":"cherry","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1666426473294,"pid":7424,"hostname":"cherry","msg":"Skipping Command bassboost. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426473295,"pid":7424,"hostname":"cherry","msg":"Skipping Command loop. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426473298,"pid":7424,"hostname":"cherry","msg":"Skipping Command np. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426473298,"pid":7424,"hostname":"cherry","msg":"Skipping Command pause. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426473299,"pid":7424,"hostname":"cherry","msg":"Skipping Command play. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426473300,"pid":7424,"hostname":"cherry","msg":"Skipping Command queue. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426473301,"pid":7424,"hostname":"cherry","msg":"Skipping Command resume. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426473302,"pid":7424,"hostname":"cherry","msg":"Skipping Command search. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426473304,"pid":7424,"hostname":"cherry","msg":"Skipping Command seek. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426473305,"pid":7424,"hostname":"cherry","msg":"Skipping Command shuffle. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426473306,"pid":7424,"hostname":"cherry","msg":"Skipping Command skip. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426473306,"pid":7424,"hostname":"cherry","msg":"Skipping Command stop. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426473307,"pid":7424,"hostname":"cherry","msg":"Skipping Command volume. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426473308,"pid":7424,"hostname":"cherry","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1666426473309,"pid":7424,"hostname":"cherry","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1666426473310,"pid":7424,"hostname":"cherry","msg":"Skipping slash command listservers. Disabled!"}
+{"level":30,"time":1666426473339,"pid":7424,"hostname":"cherry","msg":"Loaded 89 commands"}
+{"level":30,"time":1666426473339,"pid":7424,"hostname":"cherry","msg":"Loaded 70 slash commands"}
+{"level":30,"time":1666426473339,"pid":7424,"hostname":"cherry","msg":"Loading contexts..."}
+{"level":30,"time":1666426473341,"pid":7424,"hostname":"cherry","msg":"Loaded 0 USER contexts"}
+{"level":30,"time":1666426473341,"pid":7424,"hostname":"cherry","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1666426473341,"pid":7424,"hostname":"cherry","msg":"Loading events..."}
+{"level":30,"time":1666426473393,"pid":7424,"hostname":"cherry","msg":"Loaded 16 events. Success (16) Failed (0)"}
+{"level":30,"time":1666426473393,"pid":7424,"hostname":"cherry","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1666426474886,"pid":7424,"hostname":"cherry","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1666426475517,"pid":7424,"hostname":"cherry","msg":"VersionCheck: Your discord bot is up to date"}
+{"level":30,"time":1666426475517,"pid":7424,"hostname":"cherry","msg":"Launching dashboard"}
+{"level":30,"time":1666426475707,"pid":7424,"hostname":"cherry","msg":"Dashboard is listening on port 5050"}
+{"level":30,"time":1666426476954,"pid":7424,"hostname":"cherry","msg":"Logged in as test boty#4834! (1030953251710959646)"}
+{"level":30,"time":1666426476954,"pid":7424,"hostname":"cherry","msg":"Initializing giveaways manager..."}
+{"level":30,"time":1666426477090,"pid":7424,"hostname":"cherry","msg":"Giveaway Manager initialized"}
+{"level":30,"time":1666426478637,"pid":7424,"hostname":"cherry","msg":"Successfully registered interactions"}
+{"level":30,"time":1666426518864,"pid":10900,"hostname":"cherry","msg":"Validating config file and environment variables"}
+{"level":30,"time":1666426518937,"pid":10900,"hostname":"cherry","msg":"Loading commands..."}
+{"level":50,"time":1666426519022,"pid":10900,"hostname":"cherry","msg":"Failed to load C:\\Users\\NotCliqnt\\Desktop\\VisionV2\\src\\commands\\fun\\8ball.js Reason: Missing 'interactionRun' function"}
+{"level":20,"time":1666426519570,"pid":10900,"hostname":"cherry","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1666426519571,"pid":10900,"hostname":"cherry","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1666426519573,"pid":10900,"hostname":"cherry","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1666426519575,"pid":10900,"hostname":"cherry","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1666426519576,"pid":10900,"hostname":"cherry","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1666426519587,"pid":10900,"hostname":"cherry","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1666426519588,"pid":10900,"hostname":"cherry","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1666426519590,"pid":10900,"hostname":"cherry","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1666426519592,"pid":10900,"hostname":"cherry","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1666426519594,"pid":10900,"hostname":"cherry","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1666426519606,"pid":10900,"hostname":"cherry","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1666426519608,"pid":10900,"hostname":"cherry","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1666426519609,"pid":10900,"hostname":"cherry","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1666426519610,"pid":10900,"hostname":"cherry","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1666426519611,"pid":10900,"hostname":"cherry","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1666426519611,"pid":10900,"hostname":"cherry","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1666426519612,"pid":10900,"hostname":"cherry","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1666426519612,"pid":10900,"hostname":"cherry","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1666426519613,"pid":10900,"hostname":"cherry","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1666426519619,"pid":10900,"hostname":"cherry","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1666426519620,"pid":10900,"hostname":"cherry","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1666426519621,"pid":10900,"hostname":"cherry","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1666426519623,"pid":10900,"hostname":"cherry","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1666426519624,"pid":10900,"hostname":"cherry","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1666426519630,"pid":10900,"hostname":"cherry","msg":"Skipping Command bassboost. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426519631,"pid":10900,"hostname":"cherry","msg":"Skipping Command loop. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426519633,"pid":10900,"hostname":"cherry","msg":"Skipping Command np. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426519633,"pid":10900,"hostname":"cherry","msg":"Skipping Command pause. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426519634,"pid":10900,"hostname":"cherry","msg":"Skipping Command play. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426519635,"pid":10900,"hostname":"cherry","msg":"Skipping Command queue. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426519635,"pid":10900,"hostname":"cherry","msg":"Skipping Command resume. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426519636,"pid":10900,"hostname":"cherry","msg":"Skipping Command search. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426519637,"pid":10900,"hostname":"cherry","msg":"Skipping Command seek. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426519638,"pid":10900,"hostname":"cherry","msg":"Skipping Command shuffle. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426519639,"pid":10900,"hostname":"cherry","msg":"Skipping Command skip. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426519639,"pid":10900,"hostname":"cherry","msg":"Skipping Command stop. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426519640,"pid":10900,"hostname":"cherry","msg":"Skipping Command volume. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426519641,"pid":10900,"hostname":"cherry","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1666426519641,"pid":10900,"hostname":"cherry","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1666426519642,"pid":10900,"hostname":"cherry","msg":"Skipping slash command listservers. Disabled!"}
+{"level":30,"time":1666426519670,"pid":10900,"hostname":"cherry","msg":"Loaded 89 commands"}
+{"level":30,"time":1666426519670,"pid":10900,"hostname":"cherry","msg":"Loaded 70 slash commands"}
+{"level":30,"time":1666426519670,"pid":10900,"hostname":"cherry","msg":"Loading contexts..."}
+{"level":30,"time":1666426519672,"pid":10900,"hostname":"cherry","msg":"Loaded 0 USER contexts"}
+{"level":30,"time":1666426519672,"pid":10900,"hostname":"cherry","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1666426519672,"pid":10900,"hostname":"cherry","msg":"Loading events..."}
+{"level":30,"time":1666426519723,"pid":10900,"hostname":"cherry","msg":"Loaded 16 events. Success (16) Failed (0)"}
+{"level":30,"time":1666426519723,"pid":10900,"hostname":"cherry","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1666426520793,"pid":10900,"hostname":"cherry","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1666426521220,"pid":10900,"hostname":"cherry","msg":"VersionCheck: Your discord bot is up to date"}
+{"level":30,"time":1666426521220,"pid":10900,"hostname":"cherry","msg":"Launching dashboard"}
+{"level":30,"time":1666426521520,"pid":10900,"hostname":"cherry","msg":"Dashboard is listening on port 5050"}
+{"level":30,"time":1666426522502,"pid":10900,"hostname":"cherry","msg":"Logged in as test boty#4834! (1030953251710959646)"}
+{"level":30,"time":1666426522502,"pid":10900,"hostname":"cherry","msg":"Initializing giveaways manager..."}
+{"level":30,"time":1666426522598,"pid":10900,"hostname":"cherry","msg":"Giveaway Manager initialized"}
+{"level":30,"time":1666426523729,"pid":10900,"hostname":"cherry","msg":"Successfully registered interactions"}
+{"level":30,"time":1666426565354,"pid":8888,"hostname":"cherry","msg":"Validating config file and environment variables"}
+{"level":30,"time":1666426565466,"pid":8888,"hostname":"cherry","msg":"Loading commands..."}
+{"level":20,"time":1666426565574,"pid":8888,"hostname":"cherry","msg":"Skipping slash command 8ball. Disabled!"}
+{"level":20,"time":1666426566218,"pid":8888,"hostname":"cherry","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1666426566219,"pid":8888,"hostname":"cherry","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1666426566221,"pid":8888,"hostname":"cherry","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1666426566223,"pid":8888,"hostname":"cherry","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1666426566225,"pid":8888,"hostname":"cherry","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1666426566235,"pid":8888,"hostname":"cherry","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1666426566236,"pid":8888,"hostname":"cherry","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1666426566238,"pid":8888,"hostname":"cherry","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1666426566240,"pid":8888,"hostname":"cherry","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1666426566241,"pid":8888,"hostname":"cherry","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1666426566255,"pid":8888,"hostname":"cherry","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1666426566257,"pid":8888,"hostname":"cherry","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1666426566259,"pid":8888,"hostname":"cherry","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1666426566259,"pid":8888,"hostname":"cherry","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1666426566260,"pid":8888,"hostname":"cherry","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1666426566261,"pid":8888,"hostname":"cherry","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1666426566261,"pid":8888,"hostname":"cherry","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1666426566262,"pid":8888,"hostname":"cherry","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1666426566263,"pid":8888,"hostname":"cherry","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1666426566265,"pid":8888,"hostname":"cherry","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1666426566267,"pid":8888,"hostname":"cherry","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1666426566272,"pid":8888,"hostname":"cherry","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1666426566274,"pid":8888,"hostname":"cherry","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1666426566276,"pid":8888,"hostname":"cherry","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1666426566283,"pid":8888,"hostname":"cherry","msg":"Skipping Command bassboost. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426566283,"pid":8888,"hostname":"cherry","msg":"Skipping Command loop. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426566285,"pid":8888,"hostname":"cherry","msg":"Skipping Command np. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426566286,"pid":8888,"hostname":"cherry","msg":"Skipping Command pause. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426566287,"pid":8888,"hostname":"cherry","msg":"Skipping Command play. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426566288,"pid":8888,"hostname":"cherry","msg":"Skipping Command queue. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426566288,"pid":8888,"hostname":"cherry","msg":"Skipping Command resume. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426566289,"pid":8888,"hostname":"cherry","msg":"Skipping Command search. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426566290,"pid":8888,"hostname":"cherry","msg":"Skipping Command seek. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426566291,"pid":8888,"hostname":"cherry","msg":"Skipping Command shuffle. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426566291,"pid":8888,"hostname":"cherry","msg":"Skipping Command skip. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426566292,"pid":8888,"hostname":"cherry","msg":"Skipping Command stop. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426566293,"pid":8888,"hostname":"cherry","msg":"Skipping Command volume. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426566294,"pid":8888,"hostname":"cherry","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1666426566295,"pid":8888,"hostname":"cherry","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1666426566295,"pid":8888,"hostname":"cherry","msg":"Skipping slash command listservers. Disabled!"}
+{"level":30,"time":1666426566326,"pid":8888,"hostname":"cherry","msg":"Loaded 90 commands"}
+{"level":30,"time":1666426566326,"pid":8888,"hostname":"cherry","msg":"Loaded 70 slash commands"}
+{"level":30,"time":1666426566327,"pid":8888,"hostname":"cherry","msg":"Loading contexts..."}
+{"level":30,"time":1666426566328,"pid":8888,"hostname":"cherry","msg":"Loaded 0 USER contexts"}
+{"level":30,"time":1666426566328,"pid":8888,"hostname":"cherry","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1666426566328,"pid":8888,"hostname":"cherry","msg":"Loading events..."}
+{"level":30,"time":1666426566383,"pid":8888,"hostname":"cherry","msg":"Loaded 16 events. Success (16) Failed (0)"}
+{"level":30,"time":1666426566384,"pid":8888,"hostname":"cherry","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1666426567695,"pid":8888,"hostname":"cherry","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1666426568217,"pid":8888,"hostname":"cherry","msg":"VersionCheck: Your discord bot is up to date"}
+{"level":30,"time":1666426568217,"pid":8888,"hostname":"cherry","msg":"Launching dashboard"}
+{"level":30,"time":1666426568543,"pid":8888,"hostname":"cherry","msg":"Dashboard is listening on port 5050"}
+{"level":30,"time":1666426569785,"pid":8888,"hostname":"cherry","msg":"Logged in as test boty#4834! (1030953251710959646)"}
+{"level":30,"time":1666426569785,"pid":8888,"hostname":"cherry","msg":"Initializing giveaways manager..."}
+{"level":30,"time":1666426569904,"pid":8888,"hostname":"cherry","msg":"Giveaway Manager initialized"}
+{"level":30,"time":1666426570930,"pid":8888,"hostname":"cherry","msg":"Successfully registered interactions"}
+{"level":50,"time":1666426591853,"pid":8888,"hostname":"cherry","err":{"type":"TypeError","message":"Cannot read properties of undefined (reading 'members')","stack":"TypeError: Cannot read properties of undefined (reading 'members')\n    at Object.messageRun (C:\\Users\\NotCliqnt\\Desktop\\VisionV2\\src\\commands\\fun\\8ball.js:148:36)\n    at Object.handlePrefixCommand (C:\\Users\\NotCliqnt\\Desktop\\VisionV2\\src\\handlers\\command.js:70:17)\n    at module.exports (C:\\Users\\NotCliqnt\\Desktop\\VisionV2\\src\\events\\message\\messageCreate.js:24:22)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"},"msg":"messageRun: Cannot read properties of undefined (reading 'members')"}
+{"level":30,"time":1666426630351,"pid":9936,"hostname":"cherry","msg":"Validating config file and environment variables"}
+{"level":30,"time":1666426630406,"pid":9936,"hostname":"cherry","msg":"Loading commands..."}
+{"level":20,"time":1666426630492,"pid":9936,"hostname":"cherry","msg":"Skipping slash command 8ball. Disabled!"}
+{"level":20,"time":1666426630986,"pid":9936,"hostname":"cherry","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1666426630987,"pid":9936,"hostname":"cherry","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1666426630989,"pid":9936,"hostname":"cherry","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1666426630991,"pid":9936,"hostname":"cherry","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1666426630992,"pid":9936,"hostname":"cherry","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1666426631002,"pid":9936,"hostname":"cherry","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1666426631003,"pid":9936,"hostname":"cherry","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1666426631004,"pid":9936,"hostname":"cherry","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1666426631006,"pid":9936,"hostname":"cherry","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1666426631008,"pid":9936,"hostname":"cherry","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1666426631020,"pid":9936,"hostname":"cherry","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1666426631025,"pid":9936,"hostname":"cherry","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1666426631027,"pid":9936,"hostname":"cherry","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1666426631027,"pid":9936,"hostname":"cherry","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1666426631028,"pid":9936,"hostname":"cherry","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1666426631029,"pid":9936,"hostname":"cherry","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1666426631029,"pid":9936,"hostname":"cherry","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1666426631030,"pid":9936,"hostname":"cherry","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1666426631031,"pid":9936,"hostname":"cherry","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1666426631032,"pid":9936,"hostname":"cherry","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1666426631033,"pid":9936,"hostname":"cherry","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1666426631034,"pid":9936,"hostname":"cherry","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1666426631036,"pid":9936,"hostname":"cherry","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1666426631038,"pid":9936,"hostname":"cherry","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1666426631043,"pid":9936,"hostname":"cherry","msg":"Skipping Command bassboost. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426631044,"pid":9936,"hostname":"cherry","msg":"Skipping Command loop. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426631046,"pid":9936,"hostname":"cherry","msg":"Skipping Command np. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426631046,"pid":9936,"hostname":"cherry","msg":"Skipping Command pause. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426631047,"pid":9936,"hostname":"cherry","msg":"Skipping Command play. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426631048,"pid":9936,"hostname":"cherry","msg":"Skipping Command queue. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426631048,"pid":9936,"hostname":"cherry","msg":"Skipping Command resume. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426631049,"pid":9936,"hostname":"cherry","msg":"Skipping Command search. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426631050,"pid":9936,"hostname":"cherry","msg":"Skipping Command seek. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426631051,"pid":9936,"hostname":"cherry","msg":"Skipping Command shuffle. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426631052,"pid":9936,"hostname":"cherry","msg":"Skipping Command skip. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426631052,"pid":9936,"hostname":"cherry","msg":"Skipping Command stop. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426631053,"pid":9936,"hostname":"cherry","msg":"Skipping Command volume. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426631054,"pid":9936,"hostname":"cherry","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1666426631055,"pid":9936,"hostname":"cherry","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1666426631055,"pid":9936,"hostname":"cherry","msg":"Skipping slash command listservers. Disabled!"}
+{"level":30,"time":1666426631083,"pid":9936,"hostname":"cherry","msg":"Loaded 90 commands"}
+{"level":30,"time":1666426631083,"pid":9936,"hostname":"cherry","msg":"Loaded 70 slash commands"}
+{"level":30,"time":1666426631083,"pid":9936,"hostname":"cherry","msg":"Loading contexts..."}
+{"level":30,"time":1666426631084,"pid":9936,"hostname":"cherry","msg":"Loaded 0 USER contexts"}
+{"level":30,"time":1666426631085,"pid":9936,"hostname":"cherry","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1666426631085,"pid":9936,"hostname":"cherry","msg":"Loading events..."}
+{"level":30,"time":1666426631135,"pid":9936,"hostname":"cherry","msg":"Loaded 16 events. Success (16) Failed (0)"}
+{"level":30,"time":1666426631135,"pid":9936,"hostname":"cherry","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1666426632244,"pid":9936,"hostname":"cherry","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1666426632751,"pid":9936,"hostname":"cherry","msg":"VersionCheck: Your discord bot is up to date"}
+{"level":30,"time":1666426632751,"pid":9936,"hostname":"cherry","msg":"Launching dashboard"}
+{"level":30,"time":1666426633137,"pid":9936,"hostname":"cherry","msg":"Dashboard is listening on port 5050"}
+{"level":30,"time":1666426634291,"pid":9936,"hostname":"cherry","msg":"Logged in as test boty#4834! (1030953251710959646)"}
+{"level":30,"time":1666426634291,"pid":9936,"hostname":"cherry","msg":"Initializing giveaways manager..."}
+{"level":30,"time":1666426634385,"pid":9936,"hostname":"cherry","msg":"Giveaway Manager initialized"}
+{"level":30,"time":1666426636167,"pid":9936,"hostname":"cherry","msg":"Successfully registered interactions"}
+{"level":50,"time":1666426642825,"pid":9936,"hostname":"cherry","err":{"type":"ReferenceError","message":"guild is not defined","stack":"ReferenceError: guild is not defined\n    at Object.messageRun (C:\\Users\\NotCliqnt\\Desktop\\VisionV2\\src\\commands\\fun\\8ball.js:148:22)\n    at Object.handlePrefixCommand (C:\\Users\\NotCliqnt\\Desktop\\VisionV2\\src\\handlers\\command.js:70:17)\n    at module.exports (C:\\Users\\NotCliqnt\\Desktop\\VisionV2\\src\\events\\message\\messageCreate.js:24:22)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"},"msg":"messageRun: guild is not defined"}
+{"level":30,"time":1666426659185,"pid":9500,"hostname":"cherry","msg":"Validating config file and environment variables"}
+{"level":30,"time":1666426659254,"pid":9500,"hostname":"cherry","msg":"Loading commands..."}
+{"level":20,"time":1666426659342,"pid":9500,"hostname":"cherry","msg":"Skipping slash command 8ball. Disabled!"}
+{"level":20,"time":1666426659894,"pid":9500,"hostname":"cherry","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1666426659895,"pid":9500,"hostname":"cherry","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1666426659897,"pid":9500,"hostname":"cherry","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1666426659899,"pid":9500,"hostname":"cherry","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1666426659900,"pid":9500,"hostname":"cherry","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1666426659910,"pid":9500,"hostname":"cherry","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1666426659911,"pid":9500,"hostname":"cherry","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1666426659913,"pid":9500,"hostname":"cherry","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1666426659915,"pid":9500,"hostname":"cherry","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1666426659917,"pid":9500,"hostname":"cherry","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1666426659931,"pid":9500,"hostname":"cherry","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1666426659932,"pid":9500,"hostname":"cherry","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1666426659934,"pid":9500,"hostname":"cherry","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1666426659935,"pid":9500,"hostname":"cherry","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1666426659935,"pid":9500,"hostname":"cherry","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1666426659936,"pid":9500,"hostname":"cherry","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1666426659937,"pid":9500,"hostname":"cherry","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1666426659937,"pid":9500,"hostname":"cherry","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1666426659938,"pid":9500,"hostname":"cherry","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1666426659939,"pid":9500,"hostname":"cherry","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1666426659941,"pid":9500,"hostname":"cherry","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1666426659946,"pid":9500,"hostname":"cherry","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1666426659948,"pid":9500,"hostname":"cherry","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1666426659950,"pid":9500,"hostname":"cherry","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1666426659955,"pid":9500,"hostname":"cherry","msg":"Skipping Command bassboost. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426659956,"pid":9500,"hostname":"cherry","msg":"Skipping Command loop. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426659958,"pid":9500,"hostname":"cherry","msg":"Skipping Command np. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426659958,"pid":9500,"hostname":"cherry","msg":"Skipping Command pause. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426659960,"pid":9500,"hostname":"cherry","msg":"Skipping Command play. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426659961,"pid":9500,"hostname":"cherry","msg":"Skipping Command queue. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426659961,"pid":9500,"hostname":"cherry","msg":"Skipping Command resume. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426659962,"pid":9500,"hostname":"cherry","msg":"Skipping Command search. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426659963,"pid":9500,"hostname":"cherry","msg":"Skipping Command seek. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426659964,"pid":9500,"hostname":"cherry","msg":"Skipping Command shuffle. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426659964,"pid":9500,"hostname":"cherry","msg":"Skipping Command skip. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426659965,"pid":9500,"hostname":"cherry","msg":"Skipping Command stop. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426659966,"pid":9500,"hostname":"cherry","msg":"Skipping Command volume. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426659967,"pid":9500,"hostname":"cherry","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1666426659967,"pid":9500,"hostname":"cherry","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1666426659968,"pid":9500,"hostname":"cherry","msg":"Skipping slash command listservers. Disabled!"}
+{"level":30,"time":1666426659998,"pid":9500,"hostname":"cherry","msg":"Loaded 90 commands"}
+{"level":30,"time":1666426659998,"pid":9500,"hostname":"cherry","msg":"Loaded 70 slash commands"}
+{"level":30,"time":1666426659998,"pid":9500,"hostname":"cherry","msg":"Loading contexts..."}
+{"level":30,"time":1666426660000,"pid":9500,"hostname":"cherry","msg":"Loaded 0 USER contexts"}
+{"level":30,"time":1666426660000,"pid":9500,"hostname":"cherry","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1666426660000,"pid":9500,"hostname":"cherry","msg":"Loading events..."}
+{"level":30,"time":1666426660050,"pid":9500,"hostname":"cherry","msg":"Loaded 16 events. Success (16) Failed (0)"}
+{"level":30,"time":1666426660050,"pid":9500,"hostname":"cherry","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1666426661303,"pid":9500,"hostname":"cherry","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1666426661727,"pid":9500,"hostname":"cherry","msg":"VersionCheck: Your discord bot is up to date"}
+{"level":30,"time":1666426661727,"pid":9500,"hostname":"cherry","msg":"Launching dashboard"}
+{"level":30,"time":1666426661934,"pid":9500,"hostname":"cherry","msg":"Dashboard is listening on port 5050"}
+{"level":30,"time":1666426663082,"pid":9500,"hostname":"cherry","msg":"Logged in as test boty#4834! (1030953251710959646)"}
+{"level":30,"time":1666426663082,"pid":9500,"hostname":"cherry","msg":"Initializing giveaways manager..."}
+{"level":30,"time":1666426663168,"pid":9500,"hostname":"cherry","msg":"Giveaway Manager initialized"}
+{"level":30,"time":1666426664282,"pid":9500,"hostname":"cherry","msg":"Successfully registered interactions"}
+{"level":50,"time":1666426673356,"pid":9500,"hostname":"cherry","err":{"type":"TypeError","message":"Cannot read properties of undefined (reading 'members')","stack":"TypeError: Cannot read properties of undefined (reading 'members')\n    at Object.messageRun (C:\\Users\\NotCliqnt\\Desktop\\VisionV2\\src\\commands\\fun\\8ball.js:148:36)\n    at Object.handlePrefixCommand (C:\\Users\\NotCliqnt\\Desktop\\VisionV2\\src\\handlers\\command.js:70:17)\n    at module.exports (C:\\Users\\NotCliqnt\\Desktop\\VisionV2\\src\\events\\message\\messageCreate.js:24:22)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"},"msg":"messageRun: Cannot read properties of undefined (reading 'members')"}
+{"level":30,"time":1666426712323,"pid":5780,"hostname":"cherry","msg":"Validating config file and environment variables"}
+{"level":30,"time":1666426712372,"pid":5780,"hostname":"cherry","msg":"Loading commands..."}
+{"level":20,"time":1666426712570,"pid":5780,"hostname":"cherry","msg":"Skipping slash command 8ball. Disabled!"}
+{"level":20,"time":1666426713281,"pid":5780,"hostname":"cherry","msg":"Skipping slash command avatar. Disabled!"}
+{"level":20,"time":1666426713283,"pid":5780,"hostname":"cherry","msg":"Skipping slash command botinvite. Disabled!"}
+{"level":20,"time":1666426713287,"pid":5780,"hostname":"cherry","msg":"Skipping slash command botstats. Disabled!"}
+{"level":20,"time":1666426713294,"pid":5780,"hostname":"cherry","msg":"Skipping slash command channelinfo. Disabled!"}
+{"level":20,"time":1666426713297,"pid":5780,"hostname":"cherry","msg":"Skipping slash command emojiinfo. Disabled!"}
+{"level":20,"time":1666426713318,"pid":5780,"hostname":"cherry","msg":"Skipping slash command guildinfo. Disabled!"}
+{"level":20,"time":1666426713319,"pid":5780,"hostname":"cherry","msg":"Skipping slash command uptime. Disabled!"}
+{"level":20,"time":1666426713322,"pid":5780,"hostname":"cherry","msg":"Skipping slash command userinfo. Disabled!"}
+{"level":20,"time":1666426713325,"pid":5780,"hostname":"cherry","msg":"Skipping command bot. Disabled!"}
+{"level":20,"time":1666426713327,"pid":5780,"hostname":"cherry","msg":"Skipping command info. Disabled!"}
+{"level":20,"time":1666426713368,"pid":5780,"hostname":"cherry","msg":"Skipping slash command deafen. Disabled!"}
+{"level":20,"time":1666426713369,"pid":5780,"hostname":"cherry","msg":"Skipping slash command disconnect. Disabled!"}
+{"level":20,"time":1666426713371,"pid":5780,"hostname":"cherry","msg":"Skipping slash command move. Disabled!"}
+{"level":20,"time":1666426713371,"pid":5780,"hostname":"cherry","msg":"Skipping slash command purge. Disabled!"}
+{"level":20,"time":1666426713372,"pid":5780,"hostname":"cherry","msg":"Skipping slash command purgeattach. Disabled!"}
+{"level":20,"time":1666426713373,"pid":5780,"hostname":"cherry","msg":"Skipping slash command purgebots. Disabled!"}
+{"level":20,"time":1666426713374,"pid":5780,"hostname":"cherry","msg":"Skipping slash command purgelinks. Disabled!"}
+{"level":20,"time":1666426713375,"pid":5780,"hostname":"cherry","msg":"Skipping slash command purgetoken. Disabled!"}
+{"level":20,"time":1666426713376,"pid":5780,"hostname":"cherry","msg":"Skipping slash command purgeuser. Disabled!"}
+{"level":20,"time":1666426713379,"pid":5780,"hostname":"cherry","msg":"Skipping slash command undeafen. Disabled!"}
+{"level":20,"time":1666426713381,"pid":5780,"hostname":"cherry","msg":"Skipping slash command vmute. Disabled!"}
+{"level":20,"time":1666426713383,"pid":5780,"hostname":"cherry","msg":"Skipping slash command vunmute. Disabled!"}
+{"level":20,"time":1666426713388,"pid":5780,"hostname":"cherry","msg":"Skipping command purge. Disabled!"}
+{"level":20,"time":1666426713391,"pid":5780,"hostname":"cherry","msg":"Skipping command voice. Disabled!"}
+{"level":20,"time":1666426713399,"pid":5780,"hostname":"cherry","msg":"Skipping Command bassboost. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426713400,"pid":5780,"hostname":"cherry","msg":"Skipping Command loop. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426713403,"pid":5780,"hostname":"cherry","msg":"Skipping Command np. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426713404,"pid":5780,"hostname":"cherry","msg":"Skipping Command pause. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426713405,"pid":5780,"hostname":"cherry","msg":"Skipping Command play. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426713406,"pid":5780,"hostname":"cherry","msg":"Skipping Command queue. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426713407,"pid":5780,"hostname":"cherry","msg":"Skipping Command resume. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426713409,"pid":5780,"hostname":"cherry","msg":"Skipping Command search. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426713410,"pid":5780,"hostname":"cherry","msg":"Skipping Command seek. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426713411,"pid":5780,"hostname":"cherry","msg":"Skipping Command shuffle. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426713412,"pid":5780,"hostname":"cherry","msg":"Skipping Command skip. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426713413,"pid":5780,"hostname":"cherry","msg":"Skipping Command stop. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426713415,"pid":5780,"hostname":"cherry","msg":"Skipping Command volume. Category ERELA_JS is disabled"}
+{"level":20,"time":1666426713416,"pid":5780,"hostname":"cherry","msg":"Skipping slash command eval. Disabled!"}
+{"level":20,"time":1666426713418,"pid":5780,"hostname":"cherry","msg":"Skipping slash command leaveserver. Disabled!"}
+{"level":20,"time":1666426713419,"pid":5780,"hostname":"cherry","msg":"Skipping slash command listservers. Disabled!"}
+{"level":30,"time":1666426713472,"pid":5780,"hostname":"cherry","msg":"Loaded 90 commands"}
+{"level":30,"time":1666426713473,"pid":5780,"hostname":"cherry","msg":"Loaded 70 slash commands"}
+{"level":30,"time":1666426713473,"pid":5780,"hostname":"cherry","msg":"Loading contexts..."}
+{"level":30,"time":1666426713476,"pid":5780,"hostname":"cherry","msg":"Loaded 0 USER contexts"}
+{"level":30,"time":1666426713476,"pid":5780,"hostname":"cherry","msg":"Loaded 0 MESSAGE contexts"}
+{"level":30,"time":1666426713476,"pid":5780,"hostname":"cherry","msg":"Loading events..."}
+{"level":30,"time":1666426713594,"pid":5780,"hostname":"cherry","msg":"Loaded 16 events. Success (16) Failed (0)"}
+{"level":30,"time":1666426713596,"pid":5780,"hostname":"cherry","msg":"Connecting to MongoDb..."}
+{"level":30,"time":1666426714994,"pid":5780,"hostname":"cherry","msg":"Mongoose: Database connection established"}
+{"level":30,"time":1666426715517,"pid":5780,"hostname":"cherry","msg":"VersionCheck: Your discord bot is up to date"}
+{"level":30,"time":1666426715517,"pid":5780,"hostname":"cherry","msg":"Launching dashboard"}
+{"level":30,"time":1666426715715,"pid":5780,"hostname":"cherry","msg":"Dashboard is listening on port 5050"}
+{"level":30,"time":1666426716926,"pid":5780,"hostname":"cherry","msg":"Logged in as test boty#4834! (1030953251710959646)"}
+{"level":30,"time":1666426716926,"pid":5780,"hostname":"cherry","msg":"Initializing giveaways manager..."}
+{"level":30,"time":1666426717016,"pid":5780,"hostname":"cherry","msg":"Giveaway Manager initialized"}
+{"level":30,"time":1666426718681,"pid":5780,"hostname":"cherry","msg":"Successfully registered interactions"}
+{"level":50,"time":1666426724147,"pid":5780,"hostname":"cherry","err":{"type":"DiscordjsError","message":"Unable to convert color to a number.","stack":"TypeError [ColorConvert]: Unable to convert color to a number.\n    at resolveColor (C:\\Users\\NotCliqnt\\Desktop\\VisionV2\\node_modules\\discord.js\\src\\util\\Util.js:417:39)\n    at EmbedBuilder.setColor (C:\\Users\\NotCliqnt\\Desktop\\VisionV2\\node_modules\\discord.js\\src\\structures\\EmbedBuilder.js:22:36)\n    at Object.messageRun (C:\\Users\\NotCliqnt\\Desktop\\VisionV2\\src\\commands\\fun\\8ball.js:171:14)\n    at Object.handlePrefixCommand (C:\\Users\\NotCliqnt\\Desktop\\VisionV2\\src\\handlers\\command.js:70:17)\n    at module.exports (C:\\Users\\NotCliqnt\\Desktop\\VisionV2\\src\\events\\message\\messageCreate.js:24:22)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","code":"ColorConvert"},"msg":"messageRun: Unable to convert color to a number."}

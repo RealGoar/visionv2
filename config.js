@@ -1,6 +1,6 @@
 module.exports = {
-  OWNER_IDS: [947892841265397801], // Bot owner ID's
-  PREFIX: "v!", // Default prefix for the bot
+  OWNER_IDS: [787915661186957312], // Bot owner ID's
+  PREFIX: "s!", // Default prefix for the bot
   SUPPORT_SERVER: "https://discord.gg/HpYpQ3Bdn2", // Your bot support server
   INTERACTIONS: {
     SLASH: true, // Should the interactions be enabled
@@ -33,7 +33,7 @@ module.exports = {
   },
 
   DASHBOARD: {
-    enabled: true, // enable or disable dashboard
+    enabled: false, // enable or disable dashboard
     baseURL: "http://localhost:5050", // base url
     failureURL: "http://localhost:5050", // failure redirect url
     port: "5050", // port to run the bot on
@@ -102,7 +102,7 @@ module.exports = {
     ENABLED: true, // Whether or not the bot should update its status
     STATUS: "dnd", // The bot's status [online, idle, dnd, invisible]
     TYPE: "WATCHING", // Status type for the bot [PLAYING | LISTENING | WATCHING | COMPETING]
-    MESSAGE: "{members} Users | {servers} Guild", // Your bot status message
+    MESSAGE: "{members} Users", // Your bot status message | {servers} Guild
   },
 
   STATS: {

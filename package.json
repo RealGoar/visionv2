@@ -1,9 +1,9 @@
 {
-  "name": "visionv2",
+  "name": "synpase-bot",
   "version": "5.0.1",
   "description": "a custom discord bot for the minecraft server misty network",
   "main": "bot.js",
-  "author": "client",
+  "author": "celo",
   "license": "ISC",
   "engines": {
     "node": ">=16.9.0"
